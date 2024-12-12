@@ -1,0 +1,141 @@
+body{
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    background-color: rgb(225, 225, 225);
+}
+
+body *{
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.principal-container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+    width: 65%;
+    height: 650px;
+}
+
+.left-container{
+    width:  79%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.right-container{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+}
+
+.pic-name{
+    display: flex;
+    margin: 10%;
+}
+
+.pic-name img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 8%;
+}
+
+.name-role{
+    width:70%;
+    height: 80%;
+    padding-top: 4%;
+    line-height: -2px;
+}
+
+.name-role .role{
+    color: rgb(147, 147, 147);
+    font-size: 13px;
+}
+
+.element{
+    display: flex;
+    flex-direction: column; 
+}
+
+.testimonial{
+    font-weight: 700;
+    width: 70%;
+    align-self: center;
+}
+
+.description{
+    align-self: center;
+    margin-top: 10%;
+    width: 80%;
+    font-size: 12.5px;
+}
+
+
+.sub-container-1 , .sub-container-2{
+    width: 100%;
+    height: 48.7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.element-1,.element-2{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.element-1{
+    width: 70%;
+}
+
+.element-2{
+    width: 28%;
+}
+
+.sub-container-1 .element-1{
+    background-color: hsl(263, 55%, 52%);
+}
+
+.element-1 .pic-name{
+    margin-left: 4%;
+    margin-top: 3.5%;
+}
+
+.element-1 .pic-name .name-role{
+    padding: 0%;
+    margin-top: 2%;
+}
+
+.element-1 .testimonial{
+    width: 92%;
+    align-self: flex-start;
+    margin-left: 5%;
+    margin-top: -5.7%;
+}
+
+
+.sub-container-1 .element-2{
+    background-color: hsl(217, 19%, 35%);
+}
+
+.sub-container-2 .element-2{
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+}
+
+.sub-container-2 .element-1{
+    background-color: hsl(219, 29%, 14%);
+}
+
+
+
+.sub-container-2 .element-2 .testimonial,.sub-container-1 .element-2 .testimonial{
+    margin-left: -10%;
+    margin-top: -1%;
+}
